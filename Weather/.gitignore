@@ -1,0 +1,111 @@
+# ========================
+# Swift / Xcode .gitignore
+# ========================
+
+# Build products
+build/
+DerivedData/
+
+# Xcode workspace and user data
+*.xcworkspace
+xcuserdata/
+*.xcuserdatad/
+*.xcuserstate
+*.xccheckout
+*.moved-aside
+*.xcscmblueprint
+
+# SwiftPM
+.build/
+Packages/
+Package.resolved
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/
+Carthage/Build/
+
+# Accio
+Dependencies/
+.accio/
+
+# Fastlane
+fastlane/report.xml
+fastlane/screenshots
+fastlane/test_output
+fastlane/*.log
+
+# Swift Package Manager
+.swiftpm/
+.sourcekit-lsp/
+
+# Xcode automatically generated preview content
+**/Preview\ Content/
+
+# Archive files
+*.xcarchive
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# App configurations
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.pbxuser
+*.swp
+
+# IDE preferences
+.idea/
+*.iml
+
+# Debugging and profiling
+*.dSYM.zip
+*.dSYM
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.orig
+
+# macOS metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Trash
+.Trashes
+
+# Spotlight
+.Spotlight-V100
+
+# Icon?
+.Icon
+
+# Files that might appear on external volumes
+.fseventsd
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.com.apple.timemachine.supported
+
+# SwiftLint
+.swiftlint.yml
+
+# Firebase
+GoogleService-Info.plist
+
+# Environment files
+.env
+
+# Xcode Previews Cache
+**/.previews/
